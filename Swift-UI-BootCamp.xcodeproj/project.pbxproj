@@ -14,6 +14,15 @@
 		0D0FFE002C26F54F0047AEC5 /* Swift_UI_BootCampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0FFDFF2C26F54F0047AEC5 /* Swift_UI_BootCampTests.swift */; };
 		0D0FFE0A2C26F54F0047AEC5 /* Swift_UI_BootCampUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0FFE092C26F54F0047AEC5 /* Swift_UI_BootCampUITests.swift */; };
 		0D0FFE0C2C26F54F0047AEC5 /* Swift_UI_BootCampUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0FFE0B2C26F54F0047AEC5 /* Swift_UI_BootCampUITestsLaunchTests.swift */; };
+		0D0FFE192C2717990047AEC5 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0FFE182C2717990047AEC5 /* TextFieldView.swift */; };
+		0D0FFE1E2C274C4A0047AEC5 /* ToolBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0FFE1D2C274C4A0047AEC5 /* ToolBarView.swift */; };
+		0D60BA112C27B6D8009A9DFA /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D60BA102C27B6D8009A9DFA /* SliderView.swift */; };
+		0D60BA132C27BACE009A9DFA /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D60BA122C27BACE009A9DFA /* SheetView.swift */; };
+		0D60BA152C27BF9B009A9DFA /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D60BA142C27BF9B009A9DFA /* AlertView.swift */; };
+		0D60BA172C27CD67009A9DFA /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D60BA162C27CD67009A9DFA /* ButtonView.swift */; };
+		0D60BA192C27D0D9009A9DFA /* ListSwipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D60BA182C27D0D9009A9DFA /* ListSwipeView.swift */; };
+		0D60BA1B2C27D372009A9DFA /* NativePopOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D60BA1A2C27D372009A9DFA /* NativePopOverView.swift */; };
+		0D60BA1D2C27D663009A9DFA /* LazyGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D60BA1C2C27D663009A9DFA /* LazyGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +53,15 @@
 		0D0FFE052C26F54F0047AEC5 /* Swift-UI-BootCampUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-UI-BootCampUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D0FFE092C26F54F0047AEC5 /* Swift_UI_BootCampUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_UI_BootCampUITests.swift; sourceTree = "<group>"; };
 		0D0FFE0B2C26F54F0047AEC5 /* Swift_UI_BootCampUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_UI_BootCampUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0D0FFE182C2717990047AEC5 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		0D0FFE1D2C274C4A0047AEC5 /* ToolBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolBarView.swift; sourceTree = "<group>"; };
+		0D60BA102C27B6D8009A9DFA /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		0D60BA122C27BACE009A9DFA /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
+		0D60BA142C27BF9B009A9DFA /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		0D60BA162C27CD67009A9DFA /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		0D60BA182C27D0D9009A9DFA /* ListSwipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSwipeView.swift; sourceTree = "<group>"; };
+		0D60BA1A2C27D372009A9DFA /* NativePopOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativePopOverView.swift; sourceTree = "<group>"; };
+		0D60BA1C2C27D663009A9DFA /* LazyGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +112,7 @@
 		0D0FFDED2C26F54C0047AEC5 /* Swift-UI-BootCamp */ = {
 			isa = PBXGroup;
 			children = (
+				0D0FFE1A2C2717A70047AEC5 /* Views */,
 				0D0FFDEE2C26F54C0047AEC5 /* Swift_UI_BootCampApp.swift */,
 				0D0FFDF02C26F54C0047AEC5 /* ContentView.swift */,
 				0D0FFDF22C26F54F0047AEC5 /* Assets.xcassets */,
@@ -125,6 +144,22 @@
 				0D0FFE0B2C26F54F0047AEC5 /* Swift_UI_BootCampUITestsLaunchTests.swift */,
 			);
 			path = "Swift-UI-BootCampUITests";
+			sourceTree = "<group>";
+		};
+		0D0FFE1A2C2717A70047AEC5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0D0FFE182C2717990047AEC5 /* TextFieldView.swift */,
+				0D0FFE1D2C274C4A0047AEC5 /* ToolBarView.swift */,
+				0D60BA102C27B6D8009A9DFA /* SliderView.swift */,
+				0D60BA122C27BACE009A9DFA /* SheetView.swift */,
+				0D60BA142C27BF9B009A9DFA /* AlertView.swift */,
+				0D60BA162C27CD67009A9DFA /* ButtonView.swift */,
+				0D60BA182C27D0D9009A9DFA /* ListSwipeView.swift */,
+				0D60BA1A2C27D372009A9DFA /* NativePopOverView.swift */,
+				0D60BA1C2C27D663009A9DFA /* LazyGridView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +293,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D0FFDF12C26F54C0047AEC5 /* ContentView.swift in Sources */,
+				0D60BA1B2C27D372009A9DFA /* NativePopOverView.swift in Sources */,
 				0D0FFDEF2C26F54C0047AEC5 /* Swift_UI_BootCampApp.swift in Sources */,
+				0D60BA192C27D0D9009A9DFA /* ListSwipeView.swift in Sources */,
+				0D60BA1D2C27D663009A9DFA /* LazyGridView.swift in Sources */,
+				0D60BA172C27CD67009A9DFA /* ButtonView.swift in Sources */,
+				0D60BA152C27BF9B009A9DFA /* AlertView.swift in Sources */,
+				0D0FFE1E2C274C4A0047AEC5 /* ToolBarView.swift in Sources */,
+				0D0FFE192C2717990047AEC5 /* TextFieldView.swift in Sources */,
+				0D60BA132C27BACE009A9DFA /* SheetView.swift in Sources */,
+				0D60BA112C27B6D8009A9DFA /* SliderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

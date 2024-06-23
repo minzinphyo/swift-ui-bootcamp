@@ -11,7 +11,15 @@ import SwiftUI
 struct Swift_UI_BootCampApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //TextFieldView()
+            //ToolBarView()
+            //SliderView()
+            //SheetView()
+            //AlertView()
+            //ButtonView()
+            //ListSwipeView()
+            //NativePopOverView()
+            LazyGridView()
         }
     }
 }
